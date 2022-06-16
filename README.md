@@ -1,6 +1,6 @@
-# Alfresco Process Services Swagger Client 2.1.0
+# Alfresco Process Services Swagger Client 2.2.0
 
-The project generates a Java Swagger client for APS 2.1.0 platform:
+The project generates a Java Swagger client for APS 2.2.0 platform:
 
  * Activiti App Swagger Client (`aps-swagger-client`): generate the APS Java Swagger client
 
@@ -27,7 +27,7 @@ and the dependency:
 <dependency>
 	<groupId>com.github.OpenPj</groupId>
 	<artifactId>aps-2x-client</artifactId>
-	<version>2.1.0</version>
+	<version>2.2.0</version>
 </dependency>
 ```
 
