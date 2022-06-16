@@ -1,12 +1,17 @@
-# Alfresco Process Services Swagger Client 2.0.1
+# Alfresco Process Services Swagger Client 2.0.0
 
-The project generates a Java Swagger client for APS 2.0.1 platform:
+The project generates a Java Swagger client for APS 2.0.0 platform:
 
  * Activiti App Swagger Client (`aps-swagger-client`): generate the APS Java Swagger client
 
 # Prerequisites
  * OpenJDK 11
  * Apache Maven 3.8.5
+ * Docker (optional)
+ * Put valid  _activiti.lic_  and  _transform.lic_  (or  _Aspose.Total.Java.lic_  )  in the `/license` folder for running unit / integration tests and for building containers 
+ * Access to the Alfresco Nexus Repositories (credentials provided by Alfresco)
+ * Configure your Maven servers settings.xml with credentials for these repositories:
+
 
 # Quickstart
 
@@ -27,7 +32,7 @@ and the dependency:
 	<dependency>
 		<groupId>com.github.OpenPj</groupId>
 		<artifactId>aps-2x-client</artifactId>
-		<version>2.0.1</version>
+		<version>2.0.0</version>
 	</dependency>
 ```
 
