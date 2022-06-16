@@ -13,22 +13,22 @@ The project generates a Java Swagger client for APS 2.0.1 platform:
 To use it in your Maven build add:
 
 ```xml
-  <repositories>
+<repositories>
 	<repository>
-	    <id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
 	</repository>
-  </repositories>
+</repositories>
 ```
 
 and the dependency:
 
 ```xml
-	<dependency>
-		<groupId>com.github.OpenPj</groupId>
-		<artifactId>aps-2x-client</artifactId>
-		<version>2.0.1</version>
-	</dependency>
+<dependency>
+	<groupId>com.github.OpenPj</groupId>
+	<artifactId>aps-2x-client</artifactId>
+	<version>2.0.1</version>
+</dependency>
 ```
 
 Full Maven lifecycle command:
