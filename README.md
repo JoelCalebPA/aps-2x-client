@@ -1,6 +1,6 @@
 # Alfresco Process Services Swagger Client 2.0.0
 
-The project generates a Java Swagger client for Alfresco Process Sevices platform:
+The project generates a Java Swagger client for APS 2.0.0 platform:
 
  * Activiti App Swagger Client (`aps-swagger-client`): generate the APS Java Swagger client
 
@@ -14,6 +14,27 @@ The project generates a Java Swagger client for Alfresco Process Sevices platfor
 
 
 # Quickstart
+
+To use it in your Maven build add:
+
+```xml
+  <repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+  </repositories>
+```
+
+and the dependency:
+
+```xml
+	<dependency>
+		<groupId>com.github.OpenPj</groupId>
+		<artifactId>aps-2x-client</artifactId>
+		<version>2.0.0</version>
+	</dependency>
+```
 
 Full Maven lifecycle command:
 
