@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/OpenPj/aps-2x-client.svg)](https://jitpack.io/#OpenPj/aps-2x-client)
+
 # Alfresco Process Services Swagger Client 2.3.3
 
 The project generates a Java Swagger client for APS 2.3.3 platform:
