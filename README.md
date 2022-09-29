@@ -1,8 +1,8 @@
 [![](https://jitpack.io/v/OpenPj/aps-2x-client.svg)](https://jitpack.io/#OpenPj/aps-2x-client)
 
-# Alfresco Process Services Swagger Client 2.3.3
+# Alfresco Process Services Swagger Client 2.3.4
 
-The project generates a Java Swagger client for APS 2.3.3 platform:
+The project generates a Java Swagger client for APS 2.3.4 platform:
 
  * Activiti App Swagger Client (`aps-swagger-client`): generate the APS Java Swagger client
 
@@ -29,7 +29,7 @@ and the dependency:
 <dependency>
 	<groupId>com.github.OpenPj</groupId>
 	<artifactId>aps-2x-client</artifactId>
-	<version>2.3.3</version>
+	<version>2.3.4</version>
 </dependency>
 ```
 
